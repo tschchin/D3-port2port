@@ -16,11 +16,11 @@ function chordpic(){
 
     /*-----------generate data------------*/
     var utility = [];
-    var portn = 400;
+    var portn = 40;
     for(var i=0; i<portn; i++){
         var t = [];
         for(var j=0; j<portn; j++){
-            var u = Math.round(Math.random()*10);
+            var u = Math.round(Math.random()*20);
             if(Math.round(Math.random()*50)!=1)//&& i!=0)
                 t.push(0);
             else if(Math.round(Math.random()*100)!=1)//&& i!=0)
@@ -114,6 +114,6 @@ function chordpic(){
     }
 }
 //chordpic();
-setInterval(chordpic,5000);
+setInterval(chordpic,2000);
 
 </script>
